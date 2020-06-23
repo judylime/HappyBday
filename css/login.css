@@ -145,6 +145,13 @@ form button:hover {
   -webkit-transition-timing-function: linear;
   transition-timing-function: linear;
 }
+img {
+  opacity: 0.8;
+}
+
+img:hover {
+  opacity: 1.0;
+}
 .bg-bubbles li:nth-child(1) {
   left: 10%;
 }

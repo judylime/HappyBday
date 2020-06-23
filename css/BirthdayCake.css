@@ -13,6 +13,7 @@ body {
   margin-left: 42.5%;
 }
 
+
 /* ============================================== Candle
 */
 .bg {
@@ -181,7 +182,7 @@ body {
   width: 50px;
   height: 50px;
   background-color: rgba(255, 255, 255, 0.15);
-  bottom: -160px;
+  bottom: -500px;
   -webkit-animation: square 30s infinite;
   animation: square 30s infinite;
   -webkit-transition-timing-function: linear;
@@ -551,4 +552,31 @@ a.lk2:hover {
 	background-color:rgba(255,255,255,0,2);
 	border:2px solid #BBB;
 	transition:all 0.8s;
+}
+
+@media screen and (max-width:414px) {
+  .velas {
+    background: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    top: 30%;
+    margin-left: 49.5%;
+    width: 5px;
+    height: 35px;
+    -webkit-transform: translateY(-300px);
+    -ms-transform: translateY(-300px);
+    transform: translateY(-300px);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation: in 500ms 6s ease-out forwards;
+    animation: in 500ms 6s ease-out forwards;
+  }
+  #cake {
+    display: block;
+    position: relative;
+    margin-top: -10em;
+    margin-bottom: 0px;
+    margin-left: 42.5%;
+  }
 }

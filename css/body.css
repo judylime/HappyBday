@@ -1,0 +1,21 @@
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span {
+    background: #fff;
+}
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    border-color:#fff;
+}
+.iframepage{  
+	-webkit-overflow-scrolling:touch;
+	overflow-x:scroll; 
+	overflow-y:hidden;
+	}
+	::-webkit-scrollbar {
+	width: 0px;
+	}
+	/*局部滚动的dom节点*/
+	.scroll-el{
+	 overflow:auto;
+	}
+	
